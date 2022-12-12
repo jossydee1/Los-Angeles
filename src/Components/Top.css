@@ -1,0 +1,99 @@
+.top {
+  background-image: url(../Resources/image1.png);
+  height: 100vh;
+  background-size: 3100px auto;
+  background-position: 80% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 20vw;
+  border: 1px solid #bcc3c6;
+  border-radius: 30px;
+}
+
+.top__right {
+  display: flex;
+  margin-right: 20vw;
+}
+
+.top__right > a {
+  margin-right: 30px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fefeff;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Lato";
+}
+
+.top__text {
+  font-size: 115px;
+  letter-spacing: 1px;
+  line-height: 124px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-family: "Bebas Regular";
+  margin-inline: 500px;
+  margin-top: -200px;
+}
+
+.top__text > p {
+  margin: 0;
+}
+
+.top__text-2 {
+  color: #3f4e6c;
+}
+
+.top__footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__footer-left {
+  display: flex;
+  margin-top: 10px;
+}
+
+.top__footer-right {
+  display: flex;
+  margin-right: 20vw;
+}
+
+.top__footer-right > a {
+  margin-right: 30px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #414f6b;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Lato";
+}
+
+.top__footer-leftText {
+  font-size: 21px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-family: "Bebas";
+  margin-left: 10px;
+}
+.top__footer-leftText > p {
+  margin-block: 0;
+}

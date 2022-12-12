@@ -1,0 +1,14 @@
+.mid {
+  background-image: url("../Resources/image2.png");
+  height: 100vh;
+  background-size: 2000px auto;
+  background-position: 80% 0;
+}
+
+.number1 {
+  opacity: 0.502;
+  font-size: 136px;
+  color: #414f6b;
+  font-weight: 700;
+  font-family: "Oswald";
+}
