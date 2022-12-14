@@ -27,7 +27,7 @@ function Middle() {
             <img src={Carousel2} alt="" />
           </div>
           <div className="dot">
-            <span></span>
+            <span className="active"></span>
             <span></span>
             <span></span>
             <span></span>

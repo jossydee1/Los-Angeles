@@ -1,4 +1,8 @@
+/* Large Screen 1920px */
+
 .top {
+  max-width: 1920px;
+  min-width: 920px;
   background-image: url(../Resources/image1.png);
   height: 100vh;
   background-size: 3100px auto;
@@ -19,6 +23,7 @@
   margin-left: 20vw;
   border: 1px solid #bcc3c6;
   border-radius: 30px;
+  margin-bottom: 5px;
 }
 
 .top__right {
@@ -40,6 +45,7 @@
 
 .top__text {
   font-size: 115px;
+  font-size: 6vw;
   letter-spacing: 1px;
   line-height: 124px;
   text-transform: uppercase;
@@ -96,4 +102,50 @@
 }
 .top__footer-leftText > p {
   margin-block: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  .top {
+    background-image: url(../Resources/image1.png);
+    height: 100vh;
+    background-size: 2600px auto;
+    background-position: 80% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .top__text {
+    font-size: 115px;
+    letter-spacing: 1px;
+    line-height: 124px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    font-family: "Bebas Regular";
+    margin-inline: 180px;
+    margin-top: -200px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .top {
+    background-image: url(../Resources/image1.png);
+    height: 100vh;
+    background-size: 2600px auto;
+    background-position: 80% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .top__text {
+    font-size: 115px;
+    letter-spacing: 1px;
+    line-height: 124px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    font-family: "Bebas Regular";
+    margin-inline: 150px;
+    margin-top: -200px;
+  }
 }

@@ -1,4 +1,6 @@
 .mid {
+  max-width: 1920px;
+  min-width: 920px;
   background-image: url("../Resources/image2.png");
   /* height: 100vh; */
   background-size: 2000px auto;
@@ -31,7 +33,7 @@
 }
 
 .mid__body > p {
-  width: 814px;
+  width: 50vw;
   height: 339px;
   font-size: 16px;
   line-height: 24px;
@@ -51,6 +53,8 @@
 }
 
 .carousel {
+  max-width: 1920px;
+  min-width: 920px;
   background-color: #414f6b;
   opacity: 0.9;
   width: 100vw;
@@ -82,13 +86,18 @@
   transition: background-color 0.6s ease;
 }
 
-.active,
+.active {
+  background-color: white !important;
+  cursor: pointer;
+}
 .dot > span:hover {
-  background-color: white;
+  background-color: white !important;
   cursor: pointer;
 }
 
 .mid__footer {
+  max-width: 1920px;
+  min-width: 920px;
   background-color: white;
   width: 100vw;
   height: 20vh;
@@ -121,7 +130,7 @@
 }
 
 .mid__footer-body > p {
-  width: 814px;
+  width: 50vw;
   height: 339px;
   font-size: 16px;
   line-height: 24px;

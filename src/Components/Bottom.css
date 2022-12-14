@@ -1,4 +1,6 @@
 .bottom {
+  max-width: 1920px;
+  min-width: 920px;
   background-image: url(../Resources/image3.png);
   height: 65vh;
   background-size: 1950px auto;
@@ -71,12 +73,16 @@
 }
 
 .schedule {
+  min-width: 350px;
   opacity: 0.702;
   width: 20vw;
   height: 229px;
   background-color: #ffffff;
   margin-left: 21.8vw;
   margin-top: 9vw;
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
 }
 
 .schedule > h1 {
@@ -85,6 +91,7 @@
   font-weight: 700;
   font-family: "Oswald";
   margin: 1vw;
+  align-self: flex-start;
 }
 
 .schedule > p {
@@ -94,14 +101,24 @@
   color: #000000;
   font-weight: 300;
   font-family: "Lato";
-  margin: 0;
+  margin-block: 0;
   display: flex;
 }
 
 .schedule__span1 {
   margin-left: 1vw;
-  width: 5vw;
+  min-width: 10vw;
+  width: 110px;
 }
 .schedule__span2 {
-  margin-left: 3vw;
+  /* margin-left: 3vw; */
+}
+
+@media only screen and (max-width: 1500px) {
+  .bottom {
+    background-image: url(../Resources/image3.png);
+    height: 65vh;
+    background-size: 1400px auto;
+    background-position: 70% 53%;
+  }
 }
