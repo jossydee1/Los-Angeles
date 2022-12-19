@@ -17,7 +17,8 @@
 
 .mid__left > h1 {
   opacity: 0.502;
-  font-size: 136px;
+  /* font-size: 136px; */
+  font-size: 7vw;
   color: #414f6b;
   font-weight: 700;
   font-family: "Oswald";
@@ -25,10 +26,11 @@
 
 .mid__left > h5 {
   font-size: 32px;
+  font-size: 2.5rem;
   color: #414f6b;
   font-weight: 700;
   font-family: "Oswald";
-  margin-top: 14vh;
+  margin-top: 12vh;
   margin-left: -1vw;
 }
 
@@ -62,7 +64,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 19vh;
   padding-bottom: 1vh;
 }
 
@@ -115,28 +117,30 @@
 .mid__footer-left > h1 {
   opacity: 0.502;
   font-size: 136px;
+  font-size: 7vw;
   color: #414f6b;
   font-weight: 700;
   font-family: "Oswald";
 }
 
 .mid__footer-left > h5 {
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 2.5rem;
   color: #414f6b;
   font-weight: 700;
   font-family: "Oswald";
-  margin-top: 14vh;
+  margin-top: 12vh;
   margin-left: -1vw;
 }
 
 .mid__footer-body > p {
   width: 50vw;
-  height: 339px;
+  /* height: 339px; */
   font-size: 16px;
   line-height: 24px;
   color: #000000;
   font-weight: 300;
   font-family: "Lato";
   margin-left: 3vw;
-  margin-top: 24vh;
+  /* margin-top: 24vh; */
 }

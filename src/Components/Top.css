@@ -129,9 +129,13 @@
     margin-inline: 180px;
     margin-top: -200px;
   }
+
+  .topHeader {
+    margin-bottom: 10vh;
+  }
 }
 
-@media only screen and (max-width: 1500px) {
+/* @media only screen and (max-width: 1500px) {
   .top {
     background-image: url(../Resources/image1.png);
     height: 100vh;
@@ -152,8 +156,7 @@
     margin-inline: 150px;
     margin-top: -200px;
   }
-}
-
+} */
 
 /* @media only screen and (max-width: 500px) {
   .accordion {
