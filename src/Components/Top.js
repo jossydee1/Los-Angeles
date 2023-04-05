@@ -1,7 +1,6 @@
 import React from "react";
 import "./Top.css";
 import logo from "../Resources/logo.png";
-import Accordion from '../Resources/accordion.png'
 
 function Top() {
   return (
@@ -9,7 +8,6 @@ function Top() {
       <div className="topHeader">
         <img src={logo} alt="" className="logo" />
         <div className="top__right">
-          <img src={Accordion} alt="" className="accordion"/>
           <a href="">
             <p>01. History</p>
           </a>
@@ -20,8 +18,8 @@ function Top() {
       </div>
 
       <div className="top__text">
-        <p className="top__text-1">LOSANGELES</p>
-        <p className="top__text-2">MOUNTAINS</p>
+        <p className="top__text-1">DevOps</p>
+        <p className="top__text-2">Cloud</p>
       </div>
       <div className="top__footer">
         <div className="top__footer-left">
